@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bindings", "Bindings", "{063C1521-FD37-4ED2-9114-656374A4DE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belvedere.Bindings.Droid", "src\Belvedere.Bindings.Droid\Belvedere.Bindings.Droid.csproj", "{45775A06-4D52-491E-A6DB-90009A775E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelvedereCore.Bindings.Droid", "src\BelvedereCore.Bindings.Droid\BelvedereCore.Bindings.Droid.csproj", "{8A93F976-D4D1-4160-99CB-03576EBE4FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUI.Bindings.Droid", "src\CommonUI.Bindings.Droid\CommonUI.Bindings.Droid.csproj", "{076B86E8-6223-47CF-9FFE-5B1020681E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationSDK.Bindings.Droid", "src\ConfigurationSDK.Bindings.Droid\ConfigurationSDK.Bindings.Droid.csproj", "{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSDK.Bindings.Droid", "src\CoreSDK.Bindings.Droid\CoreSDK.Bindings.Droid.csproj", "{55FE998A-3B2B-458C-A0D8-30607AE4D11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Bindings.Droid", "src\Guide.Bindings.Droid\Guide.Bindings.Droid.csproj", "{3E0D5FDD-301E-4934-8173-651A96A83838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuideProviders.Bindings.Droid", "src\GuideProviders.Bindings.Droid\GuideProviders.Bindings.Droid.csproj", "{5333D4E9-BB5E-490B-B630-6912CE88F1F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaCommon.Bindings.Droid", "src\JavaCommon.Bindings.Droid\JavaCommon.Bindings.Droid.csproj", "{11F3D9FA-1CF7-4B14-8888-9D531355280C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Bindings.Droid", "src\Messaging.Bindings.Droid\Messaging.Bindings.Droid.csproj", "{DA6AC94D-FC7F-4F6D-91FA-56AA909A581D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApi.Bindings.Droid", "src\MessagingApi.Bindings.Droid\MessagingApi.Bindings.Droid.csproj", "{08BBF496-3AEA-47C6-936C-9AC8F7998D48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suas.Bindings.Droid", "src\Suas.Bindings.Droid\Suas.Bindings.Droid.csproj", "{89804826-8A1A-4324-BF1E-65621400790E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportProvidersSDK.Bindings.Droid", "src\SupportProvidersSDK.Bindings.Droid\SupportProvidersSDK.Bindings.Droid.csproj", "{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportSDK.Bindings.Droid", "src\SupportSDK.Bindings.Droid\SupportSDK.Bindings.Droid.csproj", "{1E07FB4A-A389-4E9E-99E3-9D2594C45867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{31A04E70-3628-4004-B3A2-00DBD856B1D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45775A06-4D52-491E-A6DB-90009A775E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45775A06-4D52-491E-A6DB-90009A775E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45775A06-4D52-491E-A6DB-90009A775E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45775A06-4D52-491E-A6DB-90009A775E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A93F976-D4D1-4160-99CB-03576EBE4FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A93F976-D4D1-4160-99CB-03576EBE4FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A93F976-D4D1-4160-99CB-03576EBE4FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A93F976-D4D1-4160-99CB-03576EBE4FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076B86E8-6223-47CF-9FFE-5B1020681E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076B86E8-6223-47CF-9FFE-5B1020681E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076B86E8-6223-47CF-9FFE-5B1020681E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076B86E8-6223-47CF-9FFE-5B1020681E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55FE998A-3B2B-458C-A0D8-30607AE4D11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FE998A-3B2B-458C-A0D8-30607AE4D11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FE998A-3B2B-458C-A0D8-30607AE4D11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FE998A-3B2B-458C-A0D8-30607AE4D11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0D5FDD-301E-4934-8173-651A96A83838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0D5FDD-301E-4934-8173-651A96A83838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0D5FDD-301E-4934-8173-651A96A83838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0D5FDD-301E-4934-8173-651A96A83838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5333D4E9-BB5E-490B-B630-6912CE88F1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5333D4E9-BB5E-490B-B630-6912CE88F1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5333D4E9-BB5E-490B-B630-6912CE88F1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5333D4E9-BB5E-490B-B630-6912CE88F1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F3D9FA-1CF7-4B14-8888-9D531355280C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F3D9FA-1CF7-4B14-8888-9D531355280C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F3D9FA-1CF7-4B14-8888-9D531355280C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F3D9FA-1CF7-4B14-8888-9D531355280C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6AC94D-FC7F-4F6D-91FA-56AA909A581D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6AC94D-FC7F-4F6D-91FA-56AA909A581D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6AC94D-FC7F-4F6D-91FA-56AA909A581D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6AC94D-FC7F-4F6D-91FA-56AA909A581D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BBF496-3AEA-47C6-936C-9AC8F7998D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BBF496-3AEA-47C6-936C-9AC8F7998D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BBF496-3AEA-47C6-936C-9AC8F7998D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BBF496-3AEA-47C6-936C-9AC8F7998D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89804826-8A1A-4324-BF1E-65621400790E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89804826-8A1A-4324-BF1E-65621400790E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89804826-8A1A-4324-BF1E-65621400790E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89804826-8A1A-4324-BF1E-65621400790E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E07FB4A-A389-4E9E-99E3-9D2594C45867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E07FB4A-A389-4E9E-99E3-9D2594C45867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E07FB4A-A389-4E9E-99E3-9D2594C45867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E07FB4A-A389-4E9E-99E3-9D2594C45867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A04E70-3628-4004-B3A2-00DBD856B1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A04E70-3628-4004-B3A2-00DBD856B1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A04E70-3628-4004-B3A2-00DBD856B1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A04E70-3628-4004-B3A2-00DBD856B1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FC069F7-1D3D-43E4-9561-032584117742}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45775A06-4D52-491E-A6DB-90009A775E36} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{8A93F976-D4D1-4160-99CB-03576EBE4FB0} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{076B86E8-6223-47CF-9FFE-5B1020681E0F} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{D1A76DE0-1852-44C0-8C2F-BC965C6418B2} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{55FE998A-3B2B-458C-A0D8-30607AE4D11F} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{3E0D5FDD-301E-4934-8173-651A96A83838} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{5333D4E9-BB5E-490B-B630-6912CE88F1F7} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{11F3D9FA-1CF7-4B14-8888-9D531355280C} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{DA6AC94D-FC7F-4F6D-91FA-56AA909A581D} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{08BBF496-3AEA-47C6-936C-9AC8F7998D48} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{89804826-8A1A-4324-BF1E-65621400790E} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+		{1E07FB4A-A389-4E9E-99E3-9D2594C45867} = {063C1521-FD37-4ED2-9114-656374A4DE01}
+	EndGlobalSection
+EndGlobal
