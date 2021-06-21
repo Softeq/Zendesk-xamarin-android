@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<remove-node path="/api/package[@name='zendesk.messaging.components']/class[@name='DefaultCompositeActionListener']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.components']/class[@name='CompositeActionListener']" />
+	<!--attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']" name="name">UpdateClass</attr-->
+	<!--attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']" name="managedName">UpdateClass</attr-->
+</metadata>

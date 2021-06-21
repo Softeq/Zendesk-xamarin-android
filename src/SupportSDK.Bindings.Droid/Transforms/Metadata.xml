@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='StateRequestAttachment']" name="visibility">public</attr>
+	<add-node path="/api/package[@name='zendesk.support.request']/class[@name='StateRequestAttachment']">
+		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="java.lang.Object" />
+		</method>
+	</add-node>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='ViewAlmostRealProgressBar.Step']" name="visibility">public</attr>
+	<add-node path="/api/package[@name='zendesk.support.request']/class[@name='ViewAlmostRealProgressBar.Step']">
+		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="java.lang.Object" />
+		</method>
+	</add-node>
+	<remove-node path="/api/package[@name='zendesk.support.requestlist']/class[@name='RequestInfo.LastUpdatedComparator']" />
+</metadata>

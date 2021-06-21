@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='MessagingCellProps']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='ActionOptionsView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentFileCellView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentImageCellView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentMessageView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='SystemMessageView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='TypingIndicatorView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='ResponseOptionsViewState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserCellFileState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserCellImageState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserCellMessageState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.messaging.ui']/interface[@name='Updatable']" name="visibility">public</attr>
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='ActionOptionsView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentFileCellView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentImageCellView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentMessageView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='StackedResponseOptionsView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='SystemMessageView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='TypingIndicatorView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='ResponseOptionsView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserFileCellView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserImageCellView']" />
+	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserMessageView']" />
+	<!--attr path="/api/package[@name='zendesk.messaging.ui']/interface[@name='Updatable']/method[@name='update']" name="managedName">UpdatableUpdate</attr-->
+</metadata>

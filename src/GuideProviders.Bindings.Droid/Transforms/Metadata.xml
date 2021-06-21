@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--remove-node path="/api/package[@name='zendesk.support']/class[@name='FlatArticle']" /-->
+	<remove-node path="/api/package[@name='zendesk.support']/class[@name='Guide']" />
+	<add-node path="/api/package[@name='zendesk.support']/class[@name='FlatArticle']">
+		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="java.lang.Object" />
+		</method>
+	</add-node>
+</metadata>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.Presenter']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.Model']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.View']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support.guide']/class[@name='ViewArticleActivity.LoadingState']" name="visibility">public</attr>
+</metadata>
