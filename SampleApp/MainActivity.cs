@@ -8,7 +8,9 @@ using AndroidX.AppCompat.App;
 using Google.Android.Material.FloatingActionButton;
 using Zendesk.Core;
 using Zendesk.Support;
+using Zendesk.Support.Guide;
 using Zendesk.Support.Request;
+
 
 namespace SampleApp
 {
@@ -28,8 +30,8 @@ namespace SampleApp
 
             InitZendesk();
 
-            //Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-            //SetSupportActionBar(toolbar);
+            Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar(toolbar);
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
@@ -58,22 +60,24 @@ namespace SampleApp
             RequestActivity.Builder().Show(this);
         }
 
-        //public override bool OnCreateOptionsMenu(IMenu menu)
-        //{
-        //    MenuInflater.Inflate(Resource.Menu.menu_main, menu);
-        //    return true;
-        //}
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.menu_main, menu);
+            return true;
+        }
 
-        //public override bool OnOptionsItemSelected(IMenuItem item)
-        //{
-        //    int id = item.ItemId;
-        //    if (id == Resource.Id.action_settings)
-        //    {
-        //        return true;
-        //    }
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            int id = item.ItemId;
+            if (id == Resource.Id.action_settings)
+            {
+                HelpCenterActivity.Builder().Show(this);
+                
+                return true;
+            }
 
-        //    return base.OnOptionsItemSelected(item);
-        //}
+            return base.OnOptionsItemSelected(item);
+        }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
