@@ -59,14 +59,21 @@
     <LibraryProjectZip Include="Jars\common-ui-4.0.1.aar" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.Fragment">
-      <Version>1.2.5.4</Version>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat">
+      <Version>1.0.2.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.CardView">
+      <Version>1.0.0.6</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JavaCommon.Bindings.Droid\JavaCommon.Bindings.Droid.csproj">
       <Project>{11F3D9FA-1CF7-4B14-8888-9D531355280C}</Project>
       <Name>JavaCommon.Bindings.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belvedere.Bindings.Droid\Belvedere.Bindings.Droid.csproj">
+      <Project>{45775A06-4D52-491E-A6DB-90009A775E36}</Project>
+      <Name>Belvedere.Bindings.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

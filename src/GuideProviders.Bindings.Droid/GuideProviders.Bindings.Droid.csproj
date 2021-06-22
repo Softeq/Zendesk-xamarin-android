@@ -57,6 +57,16 @@
   <ItemGroup>
     <LibraryProjectZip Include="Jars\guide-providers-1.0.1.aar" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreSDK.Bindings.Droid\CoreSDK.Bindings.Droid.csproj">
+      <Project>{55FE998A-3B2B-458C-A0D8-30607AE4D11F}</Project>
+      <Name>CoreSDK.Bindings.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JavaCommon.Bindings.Droid\JavaCommon.Bindings.Droid.csproj">
+      <Project>{11F3D9FA-1CF7-4B14-8888-9D531355280C}</Project>
+      <Name>JavaCommon.Bindings.Droid</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

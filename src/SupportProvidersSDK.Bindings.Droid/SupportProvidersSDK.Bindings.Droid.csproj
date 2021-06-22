@@ -67,6 +67,10 @@
       <Project>{11F3D9FA-1CF7-4B14-8888-9D531355280C}</Project>
       <Name>JavaCommon.Bindings.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GuideProviders.Bindings.Droid\GuideProviders.Bindings.Droid.csproj">
+      <Project>{5333D4E9-BB5E-490B-B630-6912CE88F1F7}</Project>
+      <Name>GuideProviders.Bindings.Droid</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

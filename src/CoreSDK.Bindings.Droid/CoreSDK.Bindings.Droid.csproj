@@ -67,6 +67,14 @@
       <Name>JavaCommon.Bindings.Droid</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Square.Retrofit2.ConverterGson">
+      <Version>2.4.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Square.OkHttp3.LoggingInterceptor">
+      <Version>4.3.1</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
