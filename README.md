@@ -1,14 +1,30 @@
-# Zendesk-xamarin-android
+# Zendesk SDK for Xamarin Android
 
 
 Xamarin binding libraries for Zendesk Android SDKs:
+
+Library Name  | Version        | NuGet
+--------------|:--------------:|----------
+belvedere | 3.0.0-RC | [![Softeq.ZendeskBelvedere](https://buildstats.info/nuget/Softeq.ZendeskBelvedere?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskBelvedere) `Softeq.ZendeskBelvedere`
+belvedere-core | 3.0.0-RC | [![Softeq.ZendeskBelvedereCore](https://buildstats.info/nuget/Softeq.ZendeskBelvedereCore?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskBelvedereCore) `Softeq.ZendeskBelvedereCore`
+common-ui | 4.0.1 | [![Softeq.ZendeskCommonUI.Droid](https://buildstats.info/nuget/Softeq.ZendeskCommonUI.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskCommonUI.Droid) `Softeq.ZendeskCommonUI.Droid`
+sdk-configurations | 2.0.0 | [![Softeq.ZendeskSDKConfigurations.Droid](https://buildstats.info/nuget/Softeq.ZendeskSDKConfigurations.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskSDKConfigurations.Droid) `Softeq.ZendeskSDKConfigurations.Droid`
+core | 4.0.2 | [![Softeq.ZendeskCore.Droid](https://buildstats.info/nuget/Softeq.ZendeskCore.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskCore.Droid) `Softeq.ZendeskCore.Droid`
+guide | 1.0.1 | [![Softeq.ZendeskGuide.Droid](https://buildstats.info/nuget/Softeq.ZendeskGuide.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskGuide.Droid) `Softeq.ZendeskGuide.Droid`
+guide-providers | 1.0.1 | [![Softeq.ZendeskGuideProviders.Droid](https://buildstats.info/nuget/Softeq.ZendeskGuideProviders.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskGuideProviders.Droid) `Softeq.ZendeskGuideProviders.Droid`
+messaging | 5.1.0 | [![Softeq.ZendeskMessaging.Droid](https://buildstats.info/nuget/Softeq.ZendeskMessaging.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskMessaging.Droid) `Softeq.ZendeskMessaging.Droid`
+messaging-api | 5.0.1 | [![Softeq.ZendeskMessagingAPI.Droid](https://buildstats.info/nuget/Softeq.ZendeskMessagingAPI.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskMessagingAPI.Droid) `Softeq.ZendeskMessagingAPI.Droid`
+support-providers | 5.0.2 | [![Softeq.ZendeskSupportProviders.Droid](https://buildstats.info/nuget/Softeq.ZendeskSupportProviders.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskSupportProviders.Droid) `Softeq.ZendeskSupportProviders.Droid`
+support | 5.0.2 | [![Softeq.ZendeskSupport.Droid](https://buildstats.info/nuget/Softeq.ZendeskSupport.Droid?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskSupport.Droid) `Softeq.ZendeskSupport.Droid`
+java-common | 1.14 | [![Softeq.ZendeskJavaCommon](https://buildstats.info/nuget/Softeq.ZendeskJavaCommon?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskJavaCommon) `Softeq.ZendeskJavaCommon`
+suas | 1.2.0 | [![Softeq.ZendeskSuas](https://buildstats.info/nuget/Softeq.ZendeskSuas?includePreReleases=true)](https://www.nuget.org/packages/Softeq.ZendeskSuas) `Softeq.ZendeskSuas`
 
 ## Install
 
 You can either add the NuGet package:
 
 ```
-Install-Package Softeq.ZendeskSupportSDK.Droid
+Install-Package Softeq.ZendeskSupport.Droid
 ```
 
 Install to target Android app/library:

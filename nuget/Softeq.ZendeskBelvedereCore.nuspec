@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskBelvedereCore</id>
+        <version>3.0.0</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskBelvedereCore</title>
+        <summary>Xamarin.Android binding library for Zendesk Belvedere Core</summary>
+        <description>Media picker for Android.</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android, picker</tags>
+        <dependencies>
+            <!-- https://github.com/zendesk/belvedere/blob/v3.0.0-RC/belvedere-core/build.gradle -->
+            <group targetFramework="MonoAndroid41">
+                <dependency id="Xamarin.AndroidX.Fragment" version="1.2.5.5" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/BelvedereCore.Bindings.Droid/bin/Release/BelvedereCore.Bindings.Droid.dll" target="lib/MonoAndroid41/BelvedereCore.Bindings.Droid.dll" />
+    </files>
+</package>

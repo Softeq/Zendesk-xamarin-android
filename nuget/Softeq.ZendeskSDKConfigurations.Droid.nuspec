@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskSDKConfigurations.Droid</id>
+        <version>2.0.0</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskSDKConfigurations</title>
+        <summary>Xamarin.Android binding library for Zendesk SDK Configurations</summary>
+        <description>Zendesk SDK Configurations</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid41">
+                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/ConfigurationSDK.Bindings.Droid/bin/Release/ConfigurationSDK.Bindings.Droid.dll" target="lib/MonoAndroid41/ConfigurationSDK.Bindings.Droid.dll" />
+    </files>
+</package>

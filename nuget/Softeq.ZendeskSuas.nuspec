@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskSuas</id>
+        <version>1.2.0</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskSuas</title>
+        <summary>Xamarin.Android binding library for Zendesk Suas</summary>
+        <description>Unidirectional data flow architecture implementation for Android</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/Suas.Bindings.Droid/bin/Release/Suas.Bindings.Droid.dll" target="lib/MonoAndroid/Suas.Bindings.Droid.dll" />
+    </files>
+</package>

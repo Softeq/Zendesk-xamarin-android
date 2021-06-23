@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskCore.Droid</id>
+        <version>4.0.2</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskCore</title>
+        <summary>Xamarin.Android binding library for Zendesk Core SDK</summary>
+        <description>Zendesk Core SDK</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid41">
+                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0" />
+                <dependency id="Square.Retrofit2.ConverterGson" version="2.4.0.1" />
+                <dependency id="Square.OkHttp3.LoggingInterceptor" version="4.3.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/CoreSDK.Bindings.Droid/bin/Release/CoreSDK.Bindings.Droid.dll" target="lib/MonoAndroid41/CoreSDK.Bindings.Droid.dll" />
+    </files>
+</package>

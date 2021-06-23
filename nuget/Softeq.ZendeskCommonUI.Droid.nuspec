@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskCommonUI.Droid</id>
+        <version>4.0.1</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskCommonUI</title>
+        <summary>Xamarin.Android binding library for Zendesk Common UI</summary>
+        <description>Zendesk Common UI</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid41">
+                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0" />
+                <dependency id="Softeq.ZendeskBelvedere" version="3.0.0" />
+                <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2.1" />
+                <dependency id="Xamarin.AndroidX.CardView" version="1.0.0.6" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/CommonUI.Bindings.Droid/bin/Release/CommonUI.Bindings.Droid.dll" target="lib/MonoAndroid41/CommonUI.Bindings.Droid.dll" />
+    </files>
+</package>
