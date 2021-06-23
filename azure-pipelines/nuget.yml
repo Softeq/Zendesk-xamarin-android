@@ -34,15 +34,17 @@ jobs:
   - bash: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh $(MONO_VERSION)
     displayName: Switch to the latest Xamarin SDK
   - bash: |
-      ARR=(${selectedPackage// -> / }) # split parameter value
+      echo ${{ parameters.selectedPackage }}
+      IFS=' -> ' read -ra ARR <<< "${{ parameters.selectedPackage }}"; # split parameter value
 
       PROJECT_NAME=${ARR[0]}
       echo "Run for project: $PROJECT_NAME"
       echo "##vso[task.setvariable variable=projectName]$PROJECT_NAME"
 
-      PACKAGE_NAME=${ARR[1]}
+      PACKAGE_NAME=${ARR[2]}
       echo "Package for publish: $PACKAGE_NAME"
-      echo "##vso[task.setvariable variable=packageName]$PACKAGE_NAME"      
+      echo "##vso[task.setvariable variable=packageName]$PACKAGE_NAME"
+    displayName: 'Set build variables'
 
   - script: 'msbuild src/$(projectName)/$(projectName).csproj -t:rebuild /p:Configuration=$(BuildConfiguration)'
     displayName: Build library
