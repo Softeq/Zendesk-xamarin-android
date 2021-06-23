@@ -10,6 +10,7 @@ using Zendesk.Core;
 using Zendesk.Support;
 using Zendesk.Support.Guide;
 using Zendesk.Support.Request;
+using Zendesk.Support.Requestlist;
 
 
 namespace SampleApp
@@ -28,13 +29,14 @@ namespace SampleApp
 
             SetContentView(Resource.Layout.activity_main);
 
-            InitZendesk();
-
-            Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
+            var fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
+
+
+            InitZendesk();
         }
 
         private void InitZendesk()
@@ -68,15 +70,18 @@ namespace SampleApp
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            int id = item.ItemId;
-            if (id == Resource.Id.action_settings)
+            switch (item.ItemId)
             {
-                HelpCenterActivity.Builder().Show(this);
-                
-                return true;
-            }
+                case Resource.Id.action_help:
+                    HelpCenterActivity.Builder().Show(this);
+                    return true;
 
-            return base.OnOptionsItemSelected(item);
+                case Resource.Id.action_tickets:
+                    RequestListActivity.Builder().Show(this);
+                    return true;
+                default:
+                    return base.OnOptionsItemSelected(item);        
+            }
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
