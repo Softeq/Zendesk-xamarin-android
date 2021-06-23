@@ -1,0 +1,28 @@
+resources:
+- repo: self
+trigger:
+  branches:
+    include:
+      - '*'
+  paths:
+    exclude:
+      - '**/*.md'
+
+variables:
+- template: templates/vars.yml
+
+- job: macOS
+  pool:
+    vmImage: $(MACOS_VM_IMAGE)
+
+  steps:
+  - bash: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh $(MONO_VERSION)
+    displayName: 'Switch to the latest Xamarin SDK'
+  - task: XamariniOS@2
+    displayName: 'Build Xamarin.iOS solution **/*.sln'
+    inputs:
+      solutionFile: '../**/*.sln'
+      configuration: 'Debug'
+      packageApp: false
+      buildForSimulator: true
+      runNugetRestore: true
