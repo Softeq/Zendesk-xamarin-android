@@ -19,10 +19,5 @@ jobs:
   steps:
   - bash: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh $(MONO_VERSION)
     displayName: 'Switch to the latest Xamarin SDK'
-  - task: XamarinAndroid@1
-    inputs:
-      projectFile: '../**/*.sln'
-      configuration: 'Debug'
-      createAppPackage: false
-      jdkOption: 'JDKVersion'
-  
+  - script: 'msbuild Zendesk.sln -t:rebuild /p:Configuration=Debug'
+    displayName: 'Build solution'
