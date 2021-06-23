@@ -19,11 +19,10 @@ jobs:
   steps:
   - bash: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh $(MONO_VERSION)
     displayName: 'Switch to the latest Xamarin SDK'
-  - task: XamariniOS@2
-    displayName: 'Build Xamarin.iOS solution **/*.sln'
+  - task: XamarinAndroid@1
     inputs:
-      solutionFile: '../**/*.sln'
+      projectFile: '../**/*.sln'
       configuration: 'Debug'
-      packageApp: false
-      buildForSimulator: true
-      runNugetRestore: true
+      createAppPackage: false
+      jdkOption: 'JDKVersion'
+  
