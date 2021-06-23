@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportProvidersSDK.Binding
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportSDK.Bindings.Droid", "src\SupportSDK.Bindings.Droid\SupportSDK.Bindings.Droid.csproj", "{1E07FB4A-A389-4E9E-99E3-9D2594C45867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{31A04E70-3628-4004-B3A2-00DBD856B1D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "sample\SampleApp.csproj", "{31A04E70-3628-4004-B3A2-00DBD856B1D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
