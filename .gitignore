@@ -42,3 +42,6 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+
+# Custom
+**/Resources/Resource.designer.cs
