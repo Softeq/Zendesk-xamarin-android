@@ -11,6 +11,7 @@ trigger:
 variables:
 - template: templates/vars.yml
 
+jobs:
 - job: macOS
   pool:
     vmImage: $(MACOS_VM_IMAGE)
