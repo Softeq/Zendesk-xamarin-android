@@ -46,10 +46,12 @@ jobs:
       echo "##vso[task.setvariable variable=packageName]$PACKAGE_NAME"
     displayName: 'Set build variables'
 
+  - script: 'nuget restore'
+    displayName: 'Restore packages'
   - script: 'msbuild src/$(projectName)/$(projectName).csproj -t:rebuild /p:Configuration=$(BuildConfiguration)'
-    displayName: Build library
+    displayName: 'Build library'
   - script: 'nuget pack nuget/$(packageName).nuspec'
-    displayName: Pack library
+    displayName: 'Pack library'
   - task: CopyFiles@2
     inputs:
       contents: '$(packageName)*.nupkg'
