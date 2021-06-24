@@ -1,5 +1,7 @@
 # Zendesk SDK for Xamarin Android
 
+[![Build Status](https://dev.azure.com/SofteqDevelopment/mapbox-xamarin/_apis/build/status/zendesk-android-dev?branchName=main)](https://dev.azure.com/SofteqDevelopment/mapbox-xamarin/_build/latest?definitionId=177&branchName=main)
+
 
 Xamarin binding libraries for Zendesk Android SDKs:
 
@@ -52,6 +54,13 @@ Please, save native `.aar/.jar` libraries with their `.pom` files (contains pack
 NOTES:
 - Square.Picasso 2.8 missed in NuGet (used latest 2.7+)
 - Dagger.Android 2.23.2 missed in NuGet
+
+### NuGet
+
+1. App `nuget/*.nuspec`
+2. Add configuration to `azure-pipelines/nuget.yml`
+3. Manually run pipeline for target project
+4. Update `README.md` table for new library/version
 
 ## About
 
