@@ -1,6 +1,6 @@
 # Zendesk SDK for Xamarin Android
 
-[![Build Status](https://dev.azure.com/SofteqDevelopment/mapbox-xamarin/_apis/build/status/zendesk-android-dev?branchName=main)](https://dev.azure.com/SofteqDevelopment/mapbox-xamarin/_build/latest?definitionId=177&branchName=main)
+[![Build Status](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_apis/build/status/zendesk-android-dev?branchName=main)](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_build/latest?definitionId=177&branchName=main)
 
 
 Xamarin binding libraries for Zendesk Android SDKs:
