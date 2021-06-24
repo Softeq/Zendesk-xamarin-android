@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskCommonUI.Droid</id>
-        <version>4.0.1</version>
+        <version>4.0.1.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,8 +17,8 @@
         <tags>zendesk, xamarin.android, softeq, android</tags>
         <dependencies>
             <group targetFramework="MonoAndroid41">
-                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0" />
-                <dependency id="Softeq.ZendeskBelvedere" version="3.0.0" />
+                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0.1" />
+                <dependency id="Softeq.ZendeskBelvedere" version="3.0.0.1" />
                 <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2.1" />
                 <dependency id="Xamarin.AndroidX.CardView" version="1.0.0.6" />
             </group>

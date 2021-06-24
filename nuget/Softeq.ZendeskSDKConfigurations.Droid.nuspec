@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskSDKConfigurations.Droid</id>
-        <version>2.0.0</version>
+        <version>2.0.0.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,7 +17,7 @@
         <tags>zendesk, xamarin.android, softeq, android</tags>
         <dependencies>
             <group targetFramework="MonoAndroid41">
-                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0" />
+                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0.1" />
             </group>
         </dependencies>
     </metadata>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskBelvedere</id>
-        <version>3.0.0</version>
+        <version>3.0.0.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,9 +18,9 @@
         <dependencies>
             <!-- https://github.com/zendesk/belvedere/blob/v3.0.0-RC/belvedere/build.gradle -->
             <group targetFramework="MonoAndroid41">
-                <dependency id="Softeq.ZendeskBelvedereCore" version="3.0.0" />
-                <dependency id="Xamarin.Google.Android.Material" version="1.2.1.1" />
+                <dependency id="Softeq.ZendeskBelvedereCore" version="3.0.0.1" />
                 <dependency id="Square.Picasso" version="2.71828.0" />
+                <dependency id="Xamarin.Google.Android.Material" version="1.2.1.1" />
                 <dependency id="Xamarin.AndroidX.ExifInterface" version="1.0.0.1" />
             </group>
         </dependencies>

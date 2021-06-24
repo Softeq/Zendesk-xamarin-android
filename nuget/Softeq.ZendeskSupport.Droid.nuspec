@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskSupport.Droid</id>
-        <version>5.0.2</version>
+        <version>5.0.2.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,15 +17,15 @@
         <tags>zendesk, xamarin.android, softeq, android</tags>
         <dependencies>
             <group targetFramework="MonoAndroid41">
-                <dependency id="Softeq.ZendeskCore.Droid" version="4.0.2" />
-                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0" />
-                <dependency id="Softeq.ZendeskMessaging.Droid" version="5.1.0" />
-                <dependency id="Softeq.ZendeskMessagingAPI.Droid" version="5.0.1" />
-                <dependency id="Softeq.ZendeskGuide.Droid" version="1.0.1" />
-                <dependency id="Softeq.ZendeskSupportProviders.Droid" version="5.0.2" />
-                <dependency id="Softeq.ZendeskSuas" version="1.2.0" />
-                <dependency id="Softeq.ZendeskSDKConfigurations.Droid" version="2.0.0" />
-                <dependency id="Softeq.ZendeskBelvedere" version="3.0.0" />
+                <dependency id="Softeq.ZendeskCore.Droid" version="4.0.2.1" />
+                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0.1" />
+                <dependency id="Softeq.ZendeskMessaging.Droid" version="5.1.0.1" />
+                <dependency id="Softeq.ZendeskMessagingAPI.Droid" version="5.0.1.1" />
+                <dependency id="Softeq.ZendeskGuide.Droid" version="1.0.1.1" />
+                <dependency id="Softeq.ZendeskSupportProviders.Droid" version="5.0.2.1" />
+                <dependency id="Softeq.ZendeskSuas" version="1.2.0.1" />
+                <dependency id="Softeq.ZendeskSDKConfigurations.Droid" version="2.0.0.1" />
+                <dependency id="Softeq.ZendeskBelvedere" version="3.0.0.1" />
             </group>
         </dependencies>
     </metadata>
