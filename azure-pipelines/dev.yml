@@ -19,5 +19,7 @@ jobs:
   steps:
   - bash: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh $(MONO_VERSION)
     displayName: 'Switch to the latest Xamarin SDK'
-  - script: 'msbuild Zendesk.sln -t:rebuild /p:Configuration=Debug'
+  - script: 'nuget restore'
+    displayName: 'Restore packages'
+  - script: 'msbuild *.sln -t:rebuild /p:Configuration=Debug'
     displayName: 'Build solution'

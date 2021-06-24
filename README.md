@@ -57,7 +57,7 @@ NOTES:
 
 ### NuGet
 
-1. App `nuget/*.nuspec`
+1. Add `nuget/*.nuspec`
 2. Add configuration to `azure-pipelines/nuget.yml`
 3. Manually run pipeline for target project
 4. Update `README.md` table for new library/version
