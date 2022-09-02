@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskBelvedere</id>
-        <version>3.0.0.1</version>
+        <version>3.0.5.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -16,16 +16,24 @@
         <copyright>Copyright 2021 Softeq Development Corp.</copyright>
         <tags>zendesk, xamarin.android, softeq, android, picker</tags>
         <dependencies>
-            <!-- https://github.com/zendesk/belvedere/blob/v3.0.0-RC/belvedere/build.gradle -->
-            <group targetFramework="MonoAndroid41">
-                <dependency id="Softeq.ZendeskBelvedereCore" version="3.0.0.1" />
-                <dependency id="Square.Picasso" version="2.71828.0" />
-                <dependency id="Xamarin.Google.Android.Material" version="1.2.1.1" />
-                <dependency id="Xamarin.AndroidX.ExifInterface" version="1.0.0.1" />
+            <!-- https://github.com/zendesk/belvedere/blob/v3.0.5/belvedere/build.gradle -->
+            <group targetFramework="monoandroid12.0">
+                <dependency id="Softeq.ZendeskBelvedereCore" version="3.0.5.1" />
+
+                <dependency id="Square.OkHttp3" version="4.9.2.3" />
+                <dependency id="Square.Picasso" version="2.8.0.5" />
+                <dependency id="Xamarin.AndroidX.Annotation" version="1.3.0.4" />
+                <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2.1" />
+                <dependency id="Xamarin.AndroidX.CardView" version="1.0.0.16" />
+                <dependency id="Xamarin.AndroidX.Core" version="1.3.2.3" />
+                <dependency id="Xamarin.AndroidX.Fragment" version="1.2.5.5" />
+                <dependency id="Xamarin.AndroidX.RecyclerView" version="1.2.1.7" />
+                <dependency id="Xamarin.Google.Android.Material" version="1.4.0.6" />
+                <dependency id="Xamarin.Kotlin.StdLib" version="1.6.10" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="../src/Belvedere.Bindings.Droid/bin/Release/Belvedere.Bindings.Droid.dll" target="lib/MonoAndroid41/Belvedere.Bindings.Droid.dll" />
+        <file src="../src/Belvedere.Bindings.Droid/bin/Release/Belvedere.Bindings.Droid.dll" target="lib/monoandroid12.0/Belvedere.Bindings.Droid.dll" />
     </files>
 </package>

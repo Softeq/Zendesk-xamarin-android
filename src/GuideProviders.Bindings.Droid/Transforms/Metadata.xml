@@ -1,10 +1,71 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<!--remove-node path="/api/package[@name='zendesk.support']/class[@name='FlatArticle']" /-->
-	<remove-node path="/api/package[@name='zendesk.support']/class[@name='Guide']" />
-	<add-node path="/api/package[@name='zendesk.support']/class[@name='FlatArticle']">
-		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-			<parameter name="p0" type="java.lang.Object" />
-		</method>
-	</add-node>
+
+    <attr path="/api/package[@name='zendesk.support']/interface[@name='HelpCenterTracker']" name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/interface[@name='HelpCenterSessionCache']" name="visibility">
+        public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/interface[@name='HelpCenterService']" name="visibility">public
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.support']/class[@name='FlatArticle']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='zendesk.support.FlatArticle']]/parameter[1]"
+          name="managedType">Java.Lang.Object
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvidesHelpCenterServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideModule_ProvidesHelpCenterTrackerFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideModule_ProvidesArticleVoteStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideGuideModuleFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideModule_ProvidesBlipsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideArticleVoteStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideHelpCenterProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideModule_ProvidesOkHttpClientFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideModule_ProvidesHelpCenterProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideCustomNetworkConfigFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideZendeskLocaleConverterFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideModule_ProvidesSettingsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideHelpCenterSessionCacheFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideDeviceLocaleFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvideSettingsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='GuideProviderModule_ProvidesHelpCenterBlipsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.support']/class[@name='Guide_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.Guide']]/parameter[1]"
+          name="managedType">Java.Lang.Object
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.support']/class[@name='Guide']" name="managedName">TheGuide</attr>
+
 </metadata>

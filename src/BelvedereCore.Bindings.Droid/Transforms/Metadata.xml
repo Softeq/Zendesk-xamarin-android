@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<add-node path="/api/package[@name='zendesk.belvedere']/class[@name='MediaResult']">
-		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-			<parameter name="p0" type="java.lang.Object" />
-		</method>
-	</add-node>
+
+	<attr path="/api/package[@name='zendesk.belvedere']/class[@name='MediaResult']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='zendesk.belvedere.MediaResult']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.belvedere']/class[@name='MediaResult']" name="visibility">public</attr>
+
 </metadata>

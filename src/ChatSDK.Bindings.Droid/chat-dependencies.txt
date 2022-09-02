@@ -1,0 +1,8 @@
+androidx.appcompat:appcompat:1.0.0 runtime
+androidx.lifecycle:lifecycle-extensions:2.0.0 runtime
+com.google.dagger:dagger:2.42 runtime
+com.squareup.picasso:picasso:2.8 runtime
+com.zendesk:chat-providers:3.3.6 compile
+com.zendesk:messaging-api:5.2.5 compile
+com.zendesk:sdk-configurations:2.0.3 compile
+org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10 compile

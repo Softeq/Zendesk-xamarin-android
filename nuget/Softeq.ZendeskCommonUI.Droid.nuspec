@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskCommonUI.Droid</id>
-        <version>4.0.1.1</version>
+        <version>4.0.5.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -16,15 +16,23 @@
         <copyright>Copyright 2021 Softeq Development Corp.</copyright>
         <tags>zendesk, xamarin.android, softeq, android</tags>
         <dependencies>
-            <group targetFramework="MonoAndroid41">
-                <dependency id="Softeq.ZendeskJavaCommon" version="1.14.0.1" />
-                <dependency id="Softeq.ZendeskBelvedere" version="3.0.0.1" />
+            <group targetFramework="monoandroid12.0">
+                <dependency id="Softeq.ZendeskJavaCommon" version="2.0.0.1" />
+                <dependency id="Softeq.ZendeskBelvedere" version="3.0.5.1" />
+
+                <dependency id="Square.OkHttp3" version="4.9.2.3" />
+                <dependency id="Square.Picasso" version="2.8.0.5" />
                 <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2.1" />
-                <dependency id="Xamarin.AndroidX.CardView" version="1.0.0.6" />
+                <dependency id="Xamarin.AndroidX.CardView" version="1.0.0.16" />
+                <dependency id="Xamarin.AndroidX.Core" version="1.3.2.3" />
+                <dependency id="Xamarin.AndroidX.Fragment" version="1.2.5.5" />
+                <dependency id="Xamarin.AndroidX.RecyclerView" version="1.2.1.7" />
+                <dependency id="Xamarin.Google.Android.Material" version="1.4.0.6" />
+                <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.6.10" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="../src/CommonUI.Bindings.Droid/bin/Release/CommonUI.Bindings.Droid.dll" target="lib/MonoAndroid41/CommonUI.Bindings.Droid.dll" />
+        <file src="../src/CommonUI.Bindings.Droid/bin/Release/CommonUI.Bindings.Droid.dll" target="lib/monoandroid12.0/CommonUI.Bindings.Droid.dll" />
     </files>
 </package>

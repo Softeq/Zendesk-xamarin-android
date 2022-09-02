@@ -25,6 +25,10 @@ parameters:
       - 'ConfigurationSDK.Bindings.Droid -> Softeq.ZendeskSDKConfigurations.Droid'
       - 'SupportSDK.Bindings.Droid -> Softeq.ZendeskSupport.Droid'
       - 'SupportProvidersSDK.Bindings.Droid -> Softeq.ZendeskSupportProviders.Droid'
+      - 'ChatProvidersSDK.Bindings.Droid -> Softeq.ZendeskChatProviders.Droid'
+      - 'ChatSDK.Bindings.Droid -> Softeq.ZendeskChat.Droid'
+      - 'ChatSocketClient.Bindings.Droid -> Softeq.ZendeskChatSocketClient.Droid'
+      - 'ChatVisitorClient.Bindings.Droid -> Softeq.ZendeskChatVisitorClient.Droid'
 
 jobs:
 - job: macOS

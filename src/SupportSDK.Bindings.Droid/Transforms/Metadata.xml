@@ -1,16 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<attr path="/api/package[@name='zendesk.support.request']/class[@name='StateRequestAttachment']" name="visibility">public</attr>
-	<add-node path="/api/package[@name='zendesk.support.request']/class[@name='StateRequestAttachment']">
-		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-			<parameter name="p0" type="java.lang.Object" />
-		</method>
-	</add-node>
+	
+	<attr path="/api/package[@name='zendesk.support']/class[@name='DeepLinkingBroadcastReceiver_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.DeepLinkingBroadcastReceiver']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.request.RequestActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.requestlist']/class[@name='RequestListActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.requestlist.RequestListActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestViewConversationsDisabled_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.request.RequestViewConversationsDisabled']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestViewConversationsEnabled_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.request.RequestViewConversationsEnabled']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SdkDependencyProvider_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.SdkDependencyProvider']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_UpdateActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_RequestInfoDataSourceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_InteractionIdentifierFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_StateActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_SupportUiStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_StateCompositeActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_MainThreadExecutorFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_UpdateViewObserverFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_SupportEngineFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_RequestCreatorFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_BotMessageDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_OkHttp3DownloaderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_ProvideHandlerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_ConfigurationHelperFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_ProvidesFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_ConfigurationHelperFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_ProvidesPicassoFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_TimerFactoryFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_ProvidesRequestDiskLruCacheFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_ProvidesZendeskUrlFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.requestlist']/class[@name='RequestListModule_RepositoryFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.requestlist']/class[@name='RequestListViewModule_ViewFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestModule_ProvidesDispatcherFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestModule_ProvidesStoreFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestModule_ProvidesBelvedereFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_ProvidesActionHandlersFactory']/method[@name='get' and count(parameter)=0]" name="managedName">TypedGet</attr>
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestModule_ProvidesReducerFactory']/method[@name='get' and count(parameter)=0]" name="managedName">TypedGet</attr>
+	
 	<attr path="/api/package[@name='zendesk.support.request']/class[@name='ViewAlmostRealProgressBar.Step']" name="visibility">public</attr>
 	<add-node path="/api/package[@name='zendesk.support.request']/class[@name='ViewAlmostRealProgressBar.Step']">
 		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
 			<parameter name="p0" type="java.lang.Object" />
 		</method>
 	</add-node>
-	<remove-node path="/api/package[@name='zendesk.support.requestlist']/class[@name='RequestInfo.LastUpdatedComparator']" />
+
+	<attr path="/api/package[@name='zendesk.support.request']/class[@name='StateRequestAttachment']" name="visibility">public</attr>
+	<add-node path="/api/package[@name='zendesk.support.request']/class[@name='StateRequestAttachment']">
+		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="java.lang.Object" />
+		</method>
+	</add-node>
+
 </metadata>
