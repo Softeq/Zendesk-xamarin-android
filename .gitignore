@@ -45,3 +45,11 @@ Thumbs.db
 
 # Custom
 **/Resources/Resource.designer.cs
+
+# Bindings stuff
+jl/
+library_project_jars/
+library_project_annotations/
+__AndroidLibraryProjects__.zip
+
+*.nupkg

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <attr path="/api/package[@name='zendesk.chat']/interface[@name='BaseStorage']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.chat']/interface[@name='ChatService']" name="visibility">public</attr>
+
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='AndroidModule_BaseStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='BaseModule_GetOkHttpClientFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatProvidersModule_ObservableVisitorInfoFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='AndroidModule_MainHandlerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='BaseModule_GsonFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='AndroidModule_NetworkConnectivityFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='BaseModule_GetHttpLoggingInterceptorFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatProvidersModule_ObservableAccountFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='BaseModule_RetrofitFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatProvidersModule_ObservableChatSettingsFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatSessionManager_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='BaseModule_ScheduledExecutorServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatNetworkModule_GetChatVisitorClientFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='AndroidModule_V1StorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatNetworkModule_ChatServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatProvidersModule_ObservableChatStateFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatProvidersModule_ObservableJwtAuthenticatorFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    
+</metadata>

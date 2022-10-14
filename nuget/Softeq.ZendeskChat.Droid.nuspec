@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskChat.Droid</id>
+        <version>3.3.6.3</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskChat</title>
+        <summary>Xamarin.Android binding library for Zendesk Chat SDK</summary>
+        <description>Zendesk Chat SDK</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android</tags>
+        <dependencies>
+            <group targetFramework="monoandroid12.0">
+                <dependency id="Softeq.ZendeskChatProviders.Droid" version="3.3.6.3" />
+                <dependency id="Softeq.ZendeskChatVisitorClient.Droid" version="8.3.3.3" />
+                <dependency id="Softeq.ZendeskSDKConfigurations.Droid" version="2.0.3.3" />
+                <dependency id="Softeq.ZendeskMessagingAPI.Droid" version="5.2.5.3" />
+
+                <dependency id="Square.Picasso" version="2.8.0.5" />
+                <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2.1" />
+                <dependency id="Xamarin.AndroidX.Lifecycle.Extensions" version="2.0.0.1" />
+                <dependency id="Xamarin.Google.Dagger" version="2.41.0.2" />
+                <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.6.10" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/ChatSDK.Bindings.Droid/bin/Release/ChatSDK.Bindings.Droid.dll" target="lib/monoandroid12.0/ChatSDK.Bindings.Droid.dll" />
+    </files>
+</package>

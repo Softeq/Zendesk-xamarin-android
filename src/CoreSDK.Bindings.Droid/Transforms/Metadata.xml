@@ -1,10 +1,241 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_ActionHandlerRegistryFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetApplicationConfigurationFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetApplicationContextFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetAuthenticationProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetBlipsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetExecutorFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetExecutorServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetMachineIdStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetMemoryCacheFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetNetworkInfoProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetPushRegistrationProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetRestServiceProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetScheduledExecutorServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetSessionStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='CoreModule_GetSettingsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideApplicationConfigurationFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideApplicationContextFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideBase64SerializerFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideExecutorFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideExecutorServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideGsonFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideHttpLoggingInterceptorFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskApplicationModule_ProvideZendeskLocaleConverterFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideBaseOkHttpClientFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideCoreOkHttpClientFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideCoreRetrofitFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideMediaOkHttpClientFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideOkHttpClientFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvidePushProviderRetrofitFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideRestServiceProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskNetworkModule_ProvideRetrofitFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ActionHandlerRegistryFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideAccessProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideAccessServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideBlipsServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideCoreSdkModuleFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideProviderStoreFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvidePushRegistrationProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvidePushRegistrationProviderInternalFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvidePushRegistrationServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProviderBlipsCoreProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProviderBlipsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProviderConnectivityManagerFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProviderNetworkInfoProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideSdkSettingsProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideSdkSettingsProviderInternalFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideSdkSettingsServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideUserProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskProvidersModule_ProvideUserServiceFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideAdditionalSdkBaseStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideAuthProviderFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideCacheFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideCoreSettingsStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideIdentityBaseStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideIdentityManagerFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideIdentityStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideMachineIdStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideMemoryCacheFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvidePushDeviceIdStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvidesBelvedereDirFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvidesCacheDirFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvidesDataDirFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvidesDiskLruStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideSdkBaseStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideSdkStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideSerializerFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideSessionStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideSettingsBaseStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/class[@name='ZendeskStorageModule_ProvideSettingsStorageFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='BlipsCoreProvider']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='SdkSettingsProviderInternal']" name="visibility">
+        public
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='SdkSettingsService']" name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='AccessProvider']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='AccessService']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='CoreSettingsStorage']" name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='PushRegistrationProviderInternal']"
+          name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='Storage']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='PushDeviceIdStorage']" name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='BlipsService']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='UserService']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='PushRegistrationService']" name="visibility">
+        public
+    </attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='IdentityManager']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='Serializer']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='IdentityStorage']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.core']/interface[@name='SettingsStorage']" name="visibility">public</attr>
+
+    <remove-node
+            path="/api/package[@name='zendesk.core']/interface[@name='ActionHandler']/method[@name='handle' and count(parameter)=2 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.Object&gt;'] and parameter[2][@type='android.content.Context']]"/>
+
 </metadata>

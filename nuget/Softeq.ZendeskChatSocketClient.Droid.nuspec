@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Softeq.ZendeskChatSocketClient.Droid</id>
+        <version>6.1.3.3</version>
+        <authors>Softeq Development Corp.</authors>
+        <owners>Softeq Development Corp.</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>ZendeskChatSocketClient</title>
+        <summary>Xamarin.Android binding library for Zendesk Chat Socket Client</summary>
+        <description>Zendesk Chat Socket Client</description>
+        <releaseNotes>New release</releaseNotes>
+        <iconUrl>https://avatars.githubusercontent.com/u/11525</iconUrl>
+        <licenseUrl>https://github.com/Softeq/Zendesk-xamarin-android/blob/main/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Softeq/Zendesk-xamarin-android</projectUrl>
+        <copyright>Copyright 2021 Softeq Development Corp.</copyright>
+        <tags>zendesk, xamarin.android, softeq, android</tags>
+        <dependencies>
+            <group targetFramework="monoandroid12.0">
+                <dependency id="Softeq.ZendeskJavaCommon" version="2.0.0.3" />
+
+                <dependency id="Xamarin.AndroidX.Annotation" version="1.3.0.4" />
+                <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.6.10" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="../src/ChatSocketClient.Bindings.Droid/bin/Release/ChatSocketClient.Bindings.Droid.dll" target="lib/monoandroid12.0/ChatSocketClient.Bindings.Droid.dll" />
+    </files>
+</package>

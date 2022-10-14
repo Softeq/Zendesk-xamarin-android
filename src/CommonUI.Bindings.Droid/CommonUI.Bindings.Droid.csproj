@@ -14,7 +14,7 @@
     <AssemblyName>CommonUI.Bindings.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -56,15 +56,8 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\common-ui-4.0.1.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat">
-      <Version>1.0.2.1</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.CardView">
-      <Version>1.0.0.6</Version>
-    </PackageReference>
+    <LibraryProjectZip Include="Jars\common-ui-4.0.5.aar" />
+    <JavaSourceJar Include="Jars\common-ui-4.0.5-sources.jar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JavaCommon.Bindings.Droid\JavaCommon.Bindings.Droid.csproj">
@@ -75,6 +68,35 @@
       <Project>{45775A06-4D52-491E-A6DB-90009A775E36}</Project>
       <Name>Belvedere.Bindings.Droid</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Square.OkHttp3">
+      <Version>4.9.2.3</Version>
+    </PackageReference>
+    <PackageReference Include="Square.Picasso">
+      <Version>2.8.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat">
+      <Version>1.3.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.CardView">
+      <Version>1.0.0.16</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Core">
+      <Version>1.3.2.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Fragment">
+      <Version>1.2.5.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView">
+      <Version>1.2.1.7</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Google.Android.Material">
+      <Version>1.4.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8">
+      <Version>1.6.10</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

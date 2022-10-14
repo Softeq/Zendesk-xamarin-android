@@ -1,7 +1,73 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<remove-node path="/api/package[@name='zendesk.messaging.components']/class[@name='DefaultCompositeActionListener']" />
-	<remove-node path="/api/package[@name='zendesk.messaging.components']/class[@name='CompositeActionListener']" />
-	<!--attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']" name="name">UpdateClass</attr-->
-	<!--attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']" name="managedName">UpdateClass</attr-->
+
+    <add-node path="/api/package[@name='zendesk.messaging.components']/class[@name='CompositeActionListener']">
+        <method abstract="true" deprecated="not deprecated" final="false" name="onAction"
+                jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V"
+                static="false" synchronized="false" synthetic="false" visibility="public">
+            <parameter name="p0" type="java.lang.Object"/>
+        </method>
+    </add-node>
+    
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingEvent']" name="visibility">public</attr>
+
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='ACTION_OPTION_CLICKED']"
+          name="managedName">ACTION_OPTION_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='ACTIVITY_RESULT_RECEIVED']"
+          name="managedName">ACTIVITY_RESULT_RECEIVED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='ARTICLE_SUGGESTION_CLICKED']"
+          name="managedName">ARTICLE_SUGGESTION_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='DIALOG_ITEM_CLICKED']"
+          name="managedName">DIALOG_ITEM_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='FILE_SELECTED']"
+          name="managedName">FILE_SELECTED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='MENU_ITEM_CLICKED']"
+          name="managedName">MENU_ITEM_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='MESSAGE_COPIED']"
+          name="managedName">MESSAGE_COPIED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='MESSAGE_DELETED']"
+          name="managedName">MESSAGE_DELETED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='MESSAGE_RESENT']"
+          name="managedName">MESSAGE_RESENT
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='MESSAGE_SUBMITTED']"
+          name="managedName">MESSAGE_SUBMITTED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='RECONNECT_BUTTON_CLICKED']"
+          name="managedName">RECONNECT_BUTTON_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='RESPONSE_OPTION_CLICKED']"
+          name="managedName">RESPONSE_OPTION_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='RETRY_SEND_ATTACHMENT_CLICKED']"
+          name="managedName">RETRY_SEND_ATTACHMENT_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='TRANSFER_OPTION_CLICKED']"
+          name="managedName">TRANSFER_OPTION_CLICKED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='TYPING_STARTED']"
+          name="managedName">TYPING_STARTED
+    </attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='TYPING_STOPPED']"
+          name="managedName">TYPING_STOPPED
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='APPLY_MENU_ITEMS']" name="managedName">APPLY_MENU_ITEMS</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='APPLY_MESSAGING_ITEMS']" name="managedName">APPLY_MESSAGING_ITEMS</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='HIDE_TYPING']" name="managedName">HIDE_TYPING</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='NAVIGATION']" name="managedName">NAVIGATION</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='SHOW_BANNER']" name="managedName">SHOW_BANNER</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='SHOW_DIALOG']" name="managedName">SHOW_DIALOG</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='SHOW_TYPING']" name="managedName">SHOW_TYPING</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='UPDATE_CONNECTION_STATE']" name="managedName">UPDATE_CONNECTION_STATE</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/class[@name='Update']/field[@name='UPDATE_INPUT_FIELD_STATE']" name="managedName">UPDATE_INPUT_FIELD_STATE</attr>
+    
 </metadata>

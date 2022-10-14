@@ -1,8 +1,53 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.Presenter']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.Model']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.View']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.support.guide']/class[@name='ViewArticleActivity.LoadingState']" name="visibility">public</attr>
+
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='GuideSdkDependencyProvider']"
+          name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/interface[@name='GuideSdkComponent']" name="visibility">
+        public
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='HelpCenterFragment_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.guide.HelpCenterFragment']]/parameter[1]"
+          name="managedType">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='ViewArticleActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.guide.ViewArticleActivity']]/parameter[1]"
+          name="managedType">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='HelpCenterActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.guide.HelpCenterActivity']]/parameter[1]"
+          name="managedType">Java.Lang.Object
+    </attr>
+
+    <add-node
+            path="/api/package[@name='zendesk.support.guide']/class[@name='GuideSdkDependencyProvider_MembersInjector']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="injectMembers"
+                jni-signature="(Lzendesk/support/guide/GuideSdkDependencyProvider;)V" bridge="false" native="false"
+                return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+            <parameter name="instance" type="zendesk.support.guide.GuideSdkDependencyProvider"
+                       jni-type="Lzendesk/support/guide/GuideSdkDependencyProvider;" managedType="Java.Lang.Object"/>
+        </method>
+    </add-node>
+
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='GuideSdkModule_ConfigurationHelperFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='GuideSdkModule_ViewArticleActionHandlerFactory']/method[@name='get' and count(parameter)=0]"
+          name="managedReturn">Java.Lang.Object
+    </attr>
+
+    <attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.Presenter']"
+          name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.Model']" name="visibility">
+        public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp.View']" name="visibility">
+        public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/interface[@name='HelpCenterMvp']" name="visibility">public
+    </attr>
+    <attr path="/api/package[@name='zendesk.support.guide']/class[@name='ViewArticleActivity.LoadingState']"
+          name="visibility">public
+    </attr>
+
 </metadata>

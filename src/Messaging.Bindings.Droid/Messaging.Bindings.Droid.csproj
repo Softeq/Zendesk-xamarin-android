@@ -14,7 +14,7 @@
     <AssemblyName>Messaging.Bindings.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\Additions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,28 +57,61 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\messaging-5.1.0.aar" />
+    <LibraryProjectZip Include="Jars\messaging-5.2.5.aar" />
+    <JavaSourceJar Include="Jars\messaging-5.2.5-sources.jar" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Belvedere.Bindings.Droid\Belvedere.Bindings.Droid.csproj">
+      <Project>{45775a06-4d52-491e-a6db-90009a775e36}</Project>
+      <Name>Belvedere.Bindings.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BelvedereCore.Bindings.Droid\BelvedereCore.Bindings.Droid.csproj">
+      <Project>{8a93f976-d4d1-4160-99cb-03576ebe4fb0}</Project>
+      <Name>BelvedereCore.Bindings.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CommonUI.Bindings.Droid\CommonUI.Bindings.Droid.csproj">
       <Project>{076B86E8-6223-47CF-9FFE-5B1020681E0F}</Project>
       <Name>CommonUI.Bindings.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfigurationSDK.Bindings.Droid\ConfigurationSDK.Bindings.Droid.csproj">
+      <Project>{d1a76de0-1852-44c0-8c2f-bc965c6418b2}</Project>
+      <Name>ConfigurationSDK.Bindings.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\MessagingApi.Bindings.Droid\MessagingApi.Bindings.Droid.csproj">
       <Project>{08BBF496-3AEA-47C6-936C-9AC8F7998D48}</Project>
       <Name>MessagingApi.Bindings.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ConfigurationSDK.Bindings.Droid\ConfigurationSDK.Bindings.Droid.csproj">
-      <Project>{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}</Project>
-      <Name>ConfigurationSDK.Bindings.Droid</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat">
-      <Version>1.2.0.6</Version>
+    <PackageReference Include="Square.OkHttp3">
+      <Version>4.9.2.3</Version>
     </PackageReference>
-    <PackageReference Include="XAB.FlexboxLayout">
-      <Version>2.0.1</Version>
+    <PackageReference Include="Square.Picasso">
+      <Version>2.8.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Google.Android.Flexbox">
+      <Version>3.0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Annotation">
+      <Version>1.3.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Core">
+      <Version>1.3.2.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Fragment">
+      <Version>1.2.5.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView">
+      <Version>1.2.1.7</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Google.Android.Material">
+      <Version>1.4.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Google.Dagger">
+      <Version>2.41.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8">
+      <Version>1.6.10</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

@@ -1,4 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<remove-node path="/api/package[@name='zendesk.support']/class[@name='Request']" />
+
+	<attr path="/api/package[@name='zendesk.support']/interface[@name='RequestMigrator']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support']/interface[@name='ZendeskTracker']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support']/interface[@name='RequestService']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support']/interface[@name='RequestSessionCache']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.support']/interface[@name='UploadService']" name="visibility">public</attr>
+
+	<attr path="/api/package[@name='zendesk.support']/class[@name='RequestData']" name="visibility">public</attr>
+
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ServiceModule_ProvidesRequestServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesHelpCenterProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideZendeskLocaleConverterFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportApplicationModule_ProvideLocaleFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideProviderStoreFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesOkHttpClientFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideRequestProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportApplicationModule_ProvidesZendeskTrackerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideSdkSettingsProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesRequestProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideSupportBlipsProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesArticleVoteStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesSettingsProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideSupportModuleFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesBlipsProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ProviderModule_ProvideUploadProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesUploadProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportModule_ProvidesZendeskTrackerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='StorageModule_ProvideRequestMigratorFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='StorageModule_ProvideRequestSessionCacheFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='StorageModule_ProvideRequestStorageFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.support']/class[@name='ServiceModule_ProvidesUploadServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	
+	<attr path="/api/package[@name='zendesk.support']/class[@name='Support_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.Support']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='zendesk.support']/class[@name='Request']" name="managedName">TheRequest</attr>
+	
 </metadata>
