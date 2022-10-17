@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Softeq.ZendeskChat.Droid</id>
-        <version>3.3.6.3</version>
+        <version>3.3.6.1</version>
         <authors>Softeq Development Corp.</authors>
         <owners>Softeq Development Corp.</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,10 +17,10 @@
         <tags>zendesk, xamarin.android, softeq, android</tags>
         <dependencies>
             <group targetFramework="monoandroid12.0">
-                <dependency id="Softeq.ZendeskChatProviders.Droid" version="3.3.6.3" />
-                <dependency id="Softeq.ZendeskChatVisitorClient.Droid" version="8.3.3.3" />
-                <dependency id="Softeq.ZendeskSDKConfigurations.Droid" version="2.0.3.3" />
-                <dependency id="Softeq.ZendeskMessagingAPI.Droid" version="5.2.5.3" />
+                <dependency id="Softeq.ZendeskChatProviders.Droid" version="3.3.6.1" />
+                <dependency id="Softeq.ZendeskChatVisitorClient.Droid" version="8.3.3.1" />
+                <dependency id="Softeq.ZendeskSDKConfigurations.Droid" version="2.0.3.1" />
+                <dependency id="Softeq.ZendeskMessagingAPI.Droid" version="5.2.5.1" />
 
                 <dependency id="Square.Picasso" version="2.8.0.5" />
                 <dependency id="Xamarin.AndroidX.AppCompat" version="1.0.2.1" />
