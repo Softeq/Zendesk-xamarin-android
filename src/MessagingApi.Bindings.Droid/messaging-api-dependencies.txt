@@ -1,4 +1,0 @@
-androidx.annotation:annotation:1.3.0 runtime
-com.zendesk:java-common:2.0.0 runtime
-com.zendesk:sdk-configurations:2.0.3 compile
-org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10 compile
