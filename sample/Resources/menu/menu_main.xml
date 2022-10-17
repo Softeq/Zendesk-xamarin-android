@@ -11,4 +11,9 @@
         android:orderInCategory="100"
         android:title="Tickets"
         app:showAsAction="always" />
+    <item
+            android:id="@+id/action_request"
+            android:orderInCategory="100"
+            android:title="New"
+            app:showAsAction="always" />
 </menu>

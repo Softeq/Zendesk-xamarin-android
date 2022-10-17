@@ -6,12 +6,16 @@ using Android.Views;
 using AndroidX.AppCompat.Widget;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.FloatingActionButton;
+using Com.Zendesk.Logger;
+using Com.Zendesk.Service;
+using GoogleGson.Stream;
 using Zendesk.Core;
 using Zendesk.Support;
 using Zendesk.Support.Guide;
 using Zendesk.Support.Request;
 using Zendesk.Support.Requestlist;
-
+using Zendesk.Chat;
+using Zendesk.Messaging;
 
 namespace SampleApp
 {
@@ -41,25 +45,47 @@ namespace SampleApp
 
         private void InitZendesk()
         {
+            // Enable Zendesk SDK logs
+            Logger.Loggable = true;
+
             // TODO: Add valid credentials:
+            // Init SDK
             Zendesk.Core.Zendesk.Instance.Init(this,
                 zendeskUrl: "",
                 applicationId: "",
                 oauthClientId: "");
 
+            // Init user
             var identity = new AnonymousIdentity.Builder()
-                .WithNameIdentifier(name: "")
-                .WithEmailIdentifier(email: "")
+                .WithNameIdentifier(name: "TestUserName")
+                .WithEmailIdentifier(email: "test@test.com")
                 .Build();
-
             Zendesk.Core.Zendesk.Instance.Identity = identity;
 
+            // Init Support
+            // https://developer.zendesk.com/documentation/classic-web-widget-sdks/support-sdk/android/nutshell/
             Support.Instance.Init(Zendesk.Core.Zendesk.Instance);
+
+            // Init Chat
+            // https://developer.zendesk.com/documentation/classic-web-widget-sdks/chat-sdk-v2/android/getting-started/
+            // https://developer.zendesk.com/documentation/classic-web-widget-sdks/chat-sdk-v2/android/quick-start-chat-sdk-android/
+            Chat.Instance.Init(
+                    this,
+                    "Your accountKey",
+                    "Your appId");
         }
 
         private void FabOnClick(object sender, EventArgs eventArgs)
         {
-            RequestActivity.Builder().Show(this);
+            // Simple configuration for chat
+            ChatConfiguration chatConfiguration = ChatConfiguration.InvokeBuilder()
+                .WithAgentAvailabilityEnabled(false)
+                .Build();
+
+            // Show Zendesk Chat
+            MessagingActivity.Builder()
+                .WithEngines(ChatEngine.Engine())
+                .Show(this, chatConfiguration);
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -79,8 +105,13 @@ namespace SampleApp
                 case Resource.Id.action_tickets:
                     RequestListActivity.Builder().Show(this);
                     return true;
+
+                case Resource.Id.action_request:
+                    RequestActivity.Builder().Show(this);
+                    return true;
+
                 default:
-                    return base.OnOptionsItemSelected(item);        
+                    return base.OnOptionsItemSelected(item);
             }
         }
 
