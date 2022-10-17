@@ -3,15 +3,15 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Android.App;
 
-// General Information about an assembly is controlled through the following 
+// General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CommonUI.Bindings.Droid")]
+[assembly: AssemblyTitle("ChatSocketClient.Bindings.Droid")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Softeq")]
-[assembly: AssemblyProduct("CommonUI.Bindings.Droid")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyProduct("ChatSocketClient.Bindings.Droid")]
+[assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
@@ -19,7 +19,7 @@ using Android.App;
 // Version information for an assembly consists of the following four values:
 //
 //      Major Version
-//      Minor Version 
+//      Minor Version
 //      Build Number
 //      Revision
 [assembly: AssemblyVersion("1.0.0.0")]
