@@ -77,9 +77,6 @@
     <PackageReference Include="GoogleGson">
       <Version>2.8.9.3</Version>
     </PackageReference>
-    <PackageReference Include="Square.OkHttp3">
-      <Version>4.9.2.3</Version>
-    </PackageReference>
     <PackageReference Include="Square.Retrofit2">
       <Version>2.9.0</Version>
     </PackageReference>

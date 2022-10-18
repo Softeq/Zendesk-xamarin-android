@@ -73,10 +73,6 @@
       <Project>{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}</Project>
       <Name>ConfigurationSDK.Bindings.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Suas.Bindings.Droid\Suas.Bindings.Droid.csproj">
-      <Project>{89804826-8A1A-4324-BF1E-65621400790E}</Project>
-      <Name>Suas.Bindings.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SupportProvidersSDK.Bindings.Droid\SupportProvidersSDK.Bindings.Droid.csproj">
       <Project>{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}</Project>
       <Name>SupportProvidersSDK.Bindings.Droid</Name>
@@ -106,9 +102,6 @@
     <PackageReference Include="GoogleGson">
       <Version>2.8.9.3</Version>
     </PackageReference>
-    <PackageReference Include="Square.OkHttp3">
-      <Version>4.9.2.3</Version>
-    </PackageReference>
     <PackageReference Include="Square.Picasso">
       <Version>2.8.0.5</Version>
     </PackageReference>
@@ -117,12 +110,6 @@
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.CardView">
       <Version>1.0.0.16</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Core">
-      <Version>1.3.2.3</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Fragment">
-      <Version>1.2.5.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
       <Version>1.0.0</Version>
