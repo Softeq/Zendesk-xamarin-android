@@ -72,9 +72,6 @@
     <PackageReference Include="GoogleGson">
       <Version>2.8.9.3</Version>
     </PackageReference>
-    <PackageReference Include="Square.OkHttp3">
-      <Version>4.9.2.3</Version>
-    </PackageReference>
     <PackageReference Include="Square.Retrofit2">
       <Version>2.9.0</Version>
     </PackageReference>
@@ -89,11 +86,4 @@
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

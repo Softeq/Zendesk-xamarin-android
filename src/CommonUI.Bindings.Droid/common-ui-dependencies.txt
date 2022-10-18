@@ -1,7 +1,0 @@
-androidx.appcompat:appcompat:1.0.0 runtime
-androidx.cardview:cardview:1.0.0 runtime
-com.google.android.material:material:1.4.0 runtime
-com.squareup.picasso:picasso:2.8 runtime
-com.zendesk.belvedere2:belvedere:3.0.5 runtime
-com.zendesk:java-common:2.0.0 compile
-org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10 compile

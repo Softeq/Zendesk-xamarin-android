@@ -47,6 +47,7 @@ Thumbs.db
 **/Resources/Resource.designer.cs
 
 # Bindings stuff
+.download-cache
 jl/
 library_project_jars/
 library_project_annotations/

@@ -1,6 +1,0 @@
-androidx.annotation:annotation:1.3.0 runtime
-com.google.code.gson:gson:2.8.9 runtime
-com.google.dagger:dagger:2.42 runtime
-com.squareup.retrofit2:retrofit:2.9.0 runtime
-com.zendesk:core:4.0.8 compile
-org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10 compile

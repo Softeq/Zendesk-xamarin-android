@@ -69,29 +69,9 @@
       <Project>{8a93f976-d4d1-4160-99cb-03576ebe4fb0}</Project>
       <Name>BelvedereCore.Bindings.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ChatProvidersSDK.Bindings.Droid\ChatProvidersSDK.Bindings.Droid.csproj">
-      <Project>{d6c66ffd-a8f6-47b9-a548-d56cca010f05}</Project>
-      <Name>ChatProvidersSDK.Bindings.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChatSDK.Bindings.Droid\ChatSDK.Bindings.Droid.csproj">
-      <Project>{328e708c-f11d-49e3-bd12-96f861e37500}</Project>
-      <Name>ChatSDK.Bindings.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChatSocketClient.Bindings.Droid\ChatSocketClient.Bindings.Droid.csproj">
-      <Project>{286740b2-1395-4581-ac2d-9741dbf93e90}</Project>
-      <Name>ChatSocketClient.Bindings.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChatVisitorClient.Bindings.Droid\ChatVisitorClient.Bindings.Droid.csproj">
-      <Project>{88ba1965-a672-4a0a-b57b-c9bba600c08b}</Project>
-      <Name>ChatVisitorClient.Bindings.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ConfigurationSDK.Bindings.Droid\ConfigurationSDK.Bindings.Droid.csproj">
       <Project>{D1A76DE0-1852-44C0-8C2F-BC965C6418B2}</Project>
       <Name>ConfigurationSDK.Bindings.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Suas.Bindings.Droid\Suas.Bindings.Droid.csproj">
-      <Project>{89804826-8A1A-4324-BF1E-65621400790E}</Project>
-      <Name>Suas.Bindings.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\SupportProvidersSDK.Bindings.Droid\SupportProvidersSDK.Bindings.Droid.csproj">
       <Project>{BA2FB740-61E4-4CC8-83C9-A27F1F5C1B2C}</Project>
@@ -122,9 +102,6 @@
     <PackageReference Include="GoogleGson">
       <Version>2.8.9.3</Version>
     </PackageReference>
-    <PackageReference Include="Square.OkHttp3">
-      <Version>4.9.2.3</Version>
-    </PackageReference>
     <PackageReference Include="Square.Picasso">
       <Version>2.8.0.5</Version>
     </PackageReference>
@@ -133,12 +110,6 @@
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.CardView">
       <Version>1.0.0.16</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Core">
-      <Version>1.3.2.3</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Fragment">
-      <Version>1.2.5.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
       <Version>1.0.0</Version>
@@ -163,11 +134,4 @@
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

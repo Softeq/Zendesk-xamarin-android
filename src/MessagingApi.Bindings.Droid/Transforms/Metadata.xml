@@ -9,7 +9,7 @@
         </method>
     </add-node>
     
-    <attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingEvent']" name="visibility">public</attr>
+    <attr path="/api/package[@name='zendesk.messaging']/interface[@name='MessagingEvent']" name="visibility">public</attr>
 
     <attr path="/api/package[@name='zendesk.messaging']/class[@name='Event']/field[@name='ACTION_OPTION_CLICKED']"
           name="managedName">ACTION_OPTION_CLICKED
