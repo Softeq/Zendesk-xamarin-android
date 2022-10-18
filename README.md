@@ -33,11 +33,6 @@ You can either add the NuGet package:
 Install-Package Softeq.ZendeskSupport.Droid
 ```
 
-Install to target Android app/library:
-
-- `Xamarin.Google.Dagger`: https://www.nuget.org/packages/Xamarin.Google.Dagger/2.25.2.1
-- `Xamarin.Kotlin.StdLib`: https://www.nuget.org/packages/Xamarin.Kotlin.StdLib/1.3.61
-
 ## Usage
 
 ## Basic Examples
