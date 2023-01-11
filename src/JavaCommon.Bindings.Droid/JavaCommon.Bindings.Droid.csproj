@@ -4,8 +4,8 @@
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
-    <Title>Xamarin.Android binding library for Zendesk JavaCommon</Title>
-    <Description>Zendesk Java Common classes</Description>
+    <Title>Zendesk Java Common classes</Title>
+    <Description>Xamarin.Android binding library for Zendesk JavaCommon</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2022 Softeq Development Corporation</Copyright>
     <Version>2.0.0</Version>

@@ -4,8 +4,8 @@
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
-    <Title>Xamarin.Android binding library for Zendesk SDK Configurations</Title>
-    <Description>Zendesk SDK Configurations</Description>
+    <Title>Zendesk SDK Configurations</Title>
+    <Description>Xamarin.Android binding library for Zendesk SDK Configurations</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2023 Softeq Development Corporation</Copyright>
     <Version>2.0.3</Version>
