@@ -68,4 +68,6 @@
 
     <attr path="/api/package[@name='zendesk.support']/class[@name='Guide']" name="managedName">TheGuide</attr>
 
+    <attr path="/api/package[@name='zendesk.support']/interface[@name='HelpCenterBlipsProvider']/method[@name='articleVote' and count(parameter)=2 and parameter[1][@type='java.lang.Long'] and parameter[2][@type='int']]" name="managedName">SetArticleVote</attr>
+
 </metadata>
