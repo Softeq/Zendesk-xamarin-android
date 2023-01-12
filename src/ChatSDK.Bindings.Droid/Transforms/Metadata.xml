@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    
+
     <attr path="/api/package[@name='zendesk.chat']/interface[@name='ChatEngine.EngineStartedCompletion']" name="visibility">public</attr>
 
     <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatEngineModule_ProvideUpdateActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
@@ -18,4 +18,5 @@
     <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatEngineModule_LifecycleOwnerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
     <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatEngineModule_EngineStartedCompletionFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 
+    <attr path="/api/package[@name='zendesk.chat']/class[@name='ChatEngine']/method[@name='getTransferOptionDescription' and count(parameter)=0]" name="propertyName">GetTransferOptionDescProperty</attr>
 </metadata>
