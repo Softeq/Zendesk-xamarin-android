@@ -1,80 +1,36 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{45775A06-4D52-491E-A6DB-90009A775E36}</ProjectGuid>
-    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Belvedere.Bindings.Droid</RootNamespace>
-    <AssemblyName>Belvedere.Bindings.Droid</AssemblyName>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
-    <AndroidClassParser>class-parse</AndroidClassParser>
-    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+
+    <!-- Assembly & NuGet Info -->
+    <Title>ZendeskBelvedere</Title>
+    <Description>Xamarin.Android binding library for Zendesk Belvedere</Description>
+    <Company>Softeq Development Corporation</Company>
+    <Copyright>Copyright © 2023 Softeq Development Corporation</Copyright>
+    <Version>3.0.5.1</Version>
+    <Authors>Softeq Development Corp.</Authors>
+    <Owners>Softeq Development Corp.</Owners>
+    <PackageId>Softeq.ZendeskBelvedere</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
+    <PackageReleaseNotes>Migration to .NET6</PackageReleaseNotes>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>portable</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>portable</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="Mono.Android" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
+    <None Include="../../LICENSE.txt" Visible="False" Pack="true" PackagePath="" />
+    <None Include="../../images/icon.png" Pack="true" PackagePath="" />
   </ItemGroup>
+
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <ProjectReference Include="..\BelvedereCore.Bindings.Droid\BelvedereCore.Bindings.Droid.csproj" />
   </ItemGroup>
+
   <ItemGroup>
-    <None Include="Additions\AboutAdditions.txt" />
+    <PackageReference Include="Square.Picasso" Version="2.8.0.5" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.4.0.6" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.6.21.1" />
   </ItemGroup>
-  <ItemGroup>
-    <TransformFile Include="Transforms\Metadata.xml" />
-    <TransformFile Include="Transforms\EnumFields.xml" />
-    <TransformFile Include="Transforms\EnumMethods.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <LibraryProjectZip Include="Jars\belvedere-3.0.5.aar" />
-    <JavaSourceJar Include="Jars\belvedere-3.0.5-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BelvedereCore.Bindings.Droid\BelvedereCore.Bindings.Droid.csproj">
-      <Project>{8A93F976-D4D1-4160-99CB-03576EBE4FB0}</Project>
-      <Name>BelvedereCore.Bindings.Droid</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Square.Picasso">
-      <Version>2.8.0.5</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Google.Android.Material">
-      <Version>1.4.0.6</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.6.10</Version>
-    </PackageReference>
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

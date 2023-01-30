@@ -15,11 +15,14 @@ jobs:
 - job: macOS
   pool:
     vmImage: $(MACOS_VM_IMAGE)
-
   steps:
-  - bash: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh $(MONO_VERSION)
-    displayName: 'Switch to the latest Xamarin SDK'
-  - script: 'nuget restore'
-    displayName: 'Restore packages'
-  - script: 'msbuild *.sln -t:rebuild /p:Configuration=Debug'
-    displayName: 'Build solution'
+    - template: templates/setup-dotnet.yml
+      parameters:
+        version: $(DOTNET_SDK_VERSION)
+
+    - task: Bash@3
+      displayName: Build App
+      inputs:
+        targetType: 'inline'
+        script: |
+          dotnet build -c Debug -v Detailed

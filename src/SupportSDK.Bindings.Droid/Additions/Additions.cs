@@ -7,6 +7,14 @@ namespace Zendesk.Support
             return (Java.Lang.Object)TypedGet();
         }
     }
+
+    public partial class SupportEngine
+    {
+        public override global::Zendesk.Messaging.IEngine.TransferOptionDescription GetTransferOptionDescription ()
+        {
+            return GetTransferOptionDescProperty;
+        }
+    }
 }
 
 namespace Zendesk.Support.Request
