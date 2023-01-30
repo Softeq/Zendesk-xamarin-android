@@ -8,7 +8,7 @@
     <Description>Xamarin.Android binding library for Zendesk Guide SDK</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2023 Softeq Development Corporation</Copyright>
-    <Version>1.0.9</Version>
+    <Version>1.0.9.1</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskGuide.Droid</PackageId>
