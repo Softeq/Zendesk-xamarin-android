@@ -2,8 +2,7 @@
 
 [![Build Status](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_apis/build/status/zendesk-android-dev?branchName=main)](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_build/latest?definitionId=177&branchName=main)
 
-
-Xamarin binding libraries for Zendesk Android SDKs:
+Binding libraries for Zendesk Android SDKs:
 
 Library Name  | Version        | NuGet
 --------------|:--------------:|----------
@@ -52,9 +51,7 @@ Please, save native `.aar/.jar` libraries with their `.pom` files (contains pack
 
 NOTES:
 
-- `Square.Picasso` 2.8 missed in NuGet (used latest 2.7+)
 - `Xamarin.Google.Dagger` 2.42 missed in NuGet (used latest 2.41.0.2)
-- `Xamarin.AndroidX.AppCompat` 1.0.0 missed in NuGet (used 1.0.2.1)
 - `Square.OkHttp3.LoggingInterceptor` 4.9.2 missed in NuGet (used latest 4.4.1)
 
 ### NuGet
