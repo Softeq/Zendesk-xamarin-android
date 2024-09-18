@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
     <Title>Zendesk Java Common classes</Title>
     <Description>Xamarin.Android binding library for Zendesk JavaCommon</Description>
     <Company>Softeq Development Corporation</Company>
-    <Copyright>Copyright © 2022 Softeq Development Corporation</Copyright>
+    <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
     <Version>2.0.0.1</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
@@ -16,12 +16,17 @@
     <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
-    <PackageReleaseNotes>Migration to .NET6</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../../LICENSE.txt" Visible="False" Pack="true" PackagePath="" />
     <None Include="../../images/icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AndroidLibrary Include="../../original/JavaCommon/java-common-2.0.0.jar" Bind="true" />
+    <AndroidJavaSource Include="../../original/JavaCommon/java-common-2.0.0-sources.jar" Bind="false" />
   </ItemGroup>
 
   <ItemGroup>
