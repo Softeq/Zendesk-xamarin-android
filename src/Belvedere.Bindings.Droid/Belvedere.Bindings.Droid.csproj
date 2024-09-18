@@ -8,7 +8,7 @@
     <Description>Xamarin.Android binding library for Zendesk Belvedere</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
-    <Version>3.0.5.1</Version>
+    <Version>3.0.5.2</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskBelvedere</PackageId>

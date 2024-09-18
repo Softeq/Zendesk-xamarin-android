@@ -8,7 +8,7 @@
     <Description>Unidirectional data flow architecture implementation for Android</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
-    <Version>1.2.0.2</Version>
+    <Version>1.2.0.3</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskSuas</PackageId>
