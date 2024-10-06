@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
     <Title>Xamarin.Android binding library for Zendesk Suas</Title>
     <Description>Unidirectional data flow architecture implementation for Android</Description>
     <Company>Softeq Development Corporation</Company>
-    <Copyright>Copyright © 2022 Softeq Development Corporation</Copyright>
-    <Version>1.2.0.2</Version>
+    <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
+    <Version>1.2.0.3</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskSuas</PackageId>
@@ -16,11 +16,15 @@
     <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
-    <PackageReleaseNotes>Migration to .NET6</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../../LICENSE.txt" Visible="False" Pack="true" PackagePath="" />
     <None Include="../../images/icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AndroidLibrary Include="../../original/Suas/suas-1.2.0.jar" Bind="true" />
   </ItemGroup>
 </Project>

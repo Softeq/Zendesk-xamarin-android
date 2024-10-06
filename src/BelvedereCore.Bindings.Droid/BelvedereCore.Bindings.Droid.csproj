@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
     <Title>ZendeskBelvedereCore</Title>
     <Description>Xamarin.Android binding library for Zendesk Belvedere Core</Description>
     <Company>Softeq Development Corporation</Company>
-    <Copyright>Copyright © 2023 Softeq Development Corporation</Copyright>
-    <Version>3.0.5.1</Version>
+    <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
+    <Version>3.0.5.2</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskBelvedereCore</PackageId>
@@ -16,12 +16,17 @@
     <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
-    <PackageReleaseNotes>Migration to .NET6</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../../LICENSE.txt" Visible="False" Pack="true" PackagePath="" />
     <None Include="../../images/icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <AndroidLibrary Include="../../original/BelvedereCore/belvedere-core-3.0.5.aar" Bind="true" />
+    <AndroidJavaSource Include="../../original/BelvedereCore/belvedere-core-3.0.5-sources.jar" Bind="false" />
   </ItemGroup>
 
   <ItemGroup>

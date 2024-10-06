@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-android</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
     <Title>ZendeskCommonUI</Title>
     <Description>Xamarin.Android binding library for Zendesk Common UI</Description>
     <Company>Softeq Development Corporation</Company>
-    <Copyright>Copyright © 2023 Softeq Development Corporation</Copyright>
-    <Version>4.0.5.1</Version>
+    <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
+    <Version>4.0.5.2</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskCommonUI.Droid</PackageId>
@@ -16,12 +16,17 @@
     <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
-    <PackageReleaseNotes>Migration to .NET6</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../../LICENSE.txt" Visible="False" Pack="true" PackagePath="" />
     <None Include="../../images/icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AndroidLibrary Include="../../original/CommonUI/common-ui-4.0.5.aar" Bind="true" />
+    <AndroidJavaSource Include="../../original/CommonUI/common-ui-4.0.5-sources.jar" Bind="false" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +39,6 @@
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.3.1.5" />
     <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.16" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.4.0.6" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.6.10" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.8.0.1" />
   </ItemGroup>
 </Project>
