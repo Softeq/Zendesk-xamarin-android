@@ -8,7 +8,7 @@
     <Description>Xamarin.Android binding library for Zendesk JavaCommon</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
-    <Version>2.0.0.2</Version>
+    <Version>2.0.0.3</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskJavaCommon</PackageId>
@@ -16,7 +16,7 @@
     <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
-    <PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET9</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,8 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="GoogleGson" Version="2.10.1.1" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.8.0.1" />
-    <PackageReference Include="Square.Retrofit2" Version="2.9.0.1" />
+      <PackageReference Include="GoogleGson" Version="2.10.1.11" />
+      <PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.2.20" />
+      <PackageReference Include="Square.Retrofit2" Version="2.11.0.6" />
   </ItemGroup>
 </Project>

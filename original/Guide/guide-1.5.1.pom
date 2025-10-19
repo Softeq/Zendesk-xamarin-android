@@ -8,8 +8,8 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.zendesk</groupId>
-  <artifactId>support</artifactId>
-  <version>5.1.0</version>
+  <artifactId>guide</artifactId>
+  <version>1.5.1</version>
   <packaging>aar</packaging>
   <organization>
     <name>Zendesk</name>
@@ -30,50 +30,50 @@
   <dependencies>
     <dependency>
       <groupId>com.zendesk</groupId>
-      <artifactId>support-providers</artifactId>
-      <version>5.1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.zendesk</groupId>
-      <artifactId>guide</artifactId>
-      <version>1.0.9</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.zendesk</groupId>
-      <artifactId>sdk-configurations</artifactId>
-      <version>2.0.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.zendesk</groupId>
-      <artifactId>messaging-api</artifactId>
-      <version>5.2.5</version>
+      <artifactId>guide-providers</artifactId>
+      <version>1.3.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.zendesk</groupId>
       <artifactId>messaging</artifactId>
-      <version>5.2.5</version>
+      <version>5.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zendesk</groupId>
+      <artifactId>messaging-api</artifactId>
+      <version>5.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zendesk</groupId>
+      <artifactId>sdk-configurations</artifactId>
+      <version>2.2.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-jdk8</artifactId>
-      <version>1.6.10</version>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.0.10</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.dagger</groupId>
-      <artifactId>dagger-android</artifactId>
-      <version>2.42</version>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.multidex</groupId>
-      <artifactId>multidex</artifactId>
-      <version>2.0.0</version>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -83,49 +83,27 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.appcompat</groupId>
-      <artifactId>appcompat</artifactId>
-      <version>1.0.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>androidx.recyclerview</groupId>
       <artifactId>recyclerview</artifactId>
+      <version>1.1.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.android.material</groupId>
-      <artifactId>material</artifactId>
-      <version>1.4.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.cardview</groupId>
-      <artifactId>cardview</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.jakewharton</groupId>
-      <artifactId>disklrucache</artifactId>
-      <version>2.0.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.picasso</groupId>
-      <artifactId>picasso</artifactId>
-      <version>2.8</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.zendesk.belvedere2</groupId>
-      <artifactId>belvedere</artifactId>
-      <version>3.0.5</version>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger-android</artifactId>
+      <version>2.48.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
-      <version>2.8.9</version>
+      <version>2.10.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.12.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

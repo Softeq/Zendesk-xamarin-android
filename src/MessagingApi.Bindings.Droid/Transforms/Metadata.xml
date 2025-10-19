@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
 
-    <add-node path="/api/package[@name='zendesk.messaging.components']/class[@name='CompositeActionListener']">
+    <add-node path="/api/package[@name='zendesk.classic.messaging.components']/class[@name='CompositeActionListener']">
         <method abstract="true" deprecated="not deprecated" final="false" name="onAction"
                 jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V"
                 static="false" synchronized="false" synthetic="false" visibility="public">

@@ -1,50 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
 
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='MessagingCellProps']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='ActionOptionsView.State']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentFileCellView.State']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentImageCellView.State']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentMessageView.State']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='SystemMessageView.State']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='TypingIndicatorView.State']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='ResponseOptionsViewState']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserCellFileState']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserCellImageState']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserCellMessageState']" name="visibility">public</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/interface[@name='Updatable']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='MessagingCellProps']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='ActionOptionsView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='AgentFileCellView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='AgentImageCellView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='AgentMessageView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='SystemMessageView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='TypingIndicatorView.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='ResponseOptionsViewState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='EndUserCellFileState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='EndUserCellImageState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='EndUserCellMessageState']" name="visibility">public</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/interface[@name='Updatable']" name="visibility">public</attr>
 
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingModule_ResourcesFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='BelvedereMediaHolder_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingActivityModule_DateProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingActivityModule_HandlerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingModule_BelvedereFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingModule_PicassoFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingActivityModule_MultilineResponseOptionsEnabledFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='TypingEventDispatcher_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingViewModel_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='BelvedereMediaResolverCallback_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='EventFactory_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingActivityModule_BelvedereUiFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='MessagingCellFactory_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='InputBoxConsumer_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='MessagingCellPropsFactory_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='zendesk.messaging.ui']/class[@name='MessagingComposer_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingModule_ResourcesFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='BelvedereMediaHolder_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_DateProviderFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_HandlerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingModule_BelvedereFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingModule_PicassoFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_MultilineResponseOptionsEnabledFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='TypingEventDispatcher_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingViewModel_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='BelvedereMediaResolverCallback_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MediaResolverCallback_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MediaInMemoryDataSource_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='UriResolver_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_UriTaskResolverFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_PermissionsHandlerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_ExecutorServiceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_ProvideExecutorFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='EventFactory_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivityModule_BelvedereUiFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='MessagingCellFactory_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='InputBoxConsumer_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='MessagingCellPropsFactory_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='MessagingComposer_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='MessagingActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.messaging.MessagingActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='MessagingActivity_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.classic.messaging.MessagingActivity']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
 	
-	<attr path="/api/package[@name='zendesk.messaging']/class[@name='BelvedereMediaResolverCallback']/method[@name='success' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;zendesk.belvedere.MediaResult&gt;']]" name="final">true</attr>
+	<attr path="/api/package[@name='zendesk.classic.messaging']/class[@name='BelvedereMediaResolverCallback']/method[@name='success' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;zendesk.belvedere.MediaResult&gt;']]" name="final">true</attr>
 
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='TypingIndicatorView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserMessageView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserFileCellView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='StackedResponseOptionsView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='EndUserImageCellView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentMessageView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentFileCellView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='SystemMessageView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='AgentImageCellView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='ResponseOptionsView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
-	<remove-node path="/api/package[@name='zendesk.messaging.ui']/class[@name='ActionOptionsView']/implements[@name='zendesk.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='TypingIndicatorView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='EndUserMessageView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='EndUserFileCellView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='StackedResponseOptionsView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='EndUserImageCellView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='AgentMessageView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='AgentFileCellView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='SystemMessageView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='AgentImageCellView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='ResponseOptionsView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
+	<remove-node path="/api/package[@name='zendesk.classic.messaging.ui']/class[@name='ActionOptionsView']/implements[@name='zendesk.classic.messaging.ui.Updatable']"/>
 
 </metadata>

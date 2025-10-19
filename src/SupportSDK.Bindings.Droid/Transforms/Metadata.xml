@@ -7,8 +7,9 @@
 	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestViewConversationsDisabled_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.request.RequestViewConversationsDisabled']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestViewConversationsEnabled_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.request.RequestViewConversationsEnabled']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='zendesk.support']/class[@name='SdkDependencyProvider_MembersInjector']/method[@name='injectMembers' and count(parameter)=1 and parameter[1][@type='zendesk.support.SdkDependencyProvider']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
-
-	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_UpdateActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    
+    <attr path="/api/package[@name='zendesk.support.request']/class[@name='RequestModule_PermissionsHandlerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_UpdateActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportSdkModule_RequestInfoDataSourceFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_InteractionIdentifierFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngineModule_StateActionListenerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
@@ -50,6 +51,13 @@
 			<parameter name="p0" type="java.lang.Object" />
 		</method>
 	</add-node>
+
+    <attr path="/api/package[@name='zendesk.support.request']/class[@name='MediaResult']" name="visibility">public</attr>
+    <add-node path="/api/package[@name='zendesk.support.request']/class[@name='MediaResult']">
+        <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="p0" type="java.lang.Object" />
+        </method>
+    </add-node>
 
 	<attr path="/api/package[@name='zendesk.support']/class[@name='SupportEngine']/method[@name='getTransferOptionDescription' and count(parameter)=0]" name="propertyName">GetTransferOptionDescProperty</attr>
 

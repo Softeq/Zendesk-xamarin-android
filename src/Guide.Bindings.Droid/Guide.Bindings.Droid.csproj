@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
+    <TargetFramework>net9.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 
     <!-- Assembly & NuGet Info -->
@@ -8,7 +8,7 @@
     <Description>Xamarin.Android binding library for Zendesk Guide SDK</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
-    <Version>1.0.9.3</Version>
+    <Version>1.5.1</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.ZendeskGuide.Droid</PackageId>
@@ -16,7 +16,7 @@
     <PackageProjectUrl>https://github.com/Softeq/Zendesk-xamarin-android</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageTags>zendesk;android;xamarin;binding;softeq;library</PackageTags>
-    <PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET9</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AndroidLibrary Include="../../original/Guide/guide-1.0.9.aar" Bind="true" />
-    <AndroidJavaSource Include="../../original/Guide/guide-1.0.9-sources.jar" Bind="false" />
+    <AndroidLibrary Include="../../original/Guide/guide-1.5.1.aar" Bind="true" />
+    <AndroidJavaSource Include="../../original/Guide/guide-1.5.1-sources.jar" Bind="false" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,19 +34,17 @@
     <ProjectReference Include="..\Messaging.Bindings.Droid\Messaging.Bindings.Droid.csproj" />
     <ProjectReference Include="..\MessagingApi.Bindings.Droid\MessagingApi.Bindings.Droid.csproj" />
     <ProjectReference Include="..\GuideProviders.Bindings.Droid\GuideProviders.Bindings.Droid.csproj" />
-    <ProjectReference Include="..\JavaCommon.Bindings.Droid\JavaCommon.Bindings.Droid.csproj" />
-    <ProjectReference Include="..\CoreSDK.Bindings.Droid\CoreSDK.Bindings.Droid.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="GoogleGson" Version="2.10.1.1" />
-    <PackageReference Include="Square.OkHttp3" Version="4.10.0.1" />
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.3.1.5" />
-    <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.16" />
-    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.8" />
+    <PackageReference Include="GoogleGson" Version="2.10.1.11" />
+    <PackageReference Include="Square.OkHttp3" Version="4.12.0.10" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0" />
+    <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.36" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.28" />
     <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.2.1.7" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.4.0.6" />
-    <PackageReference Include="Xamarin.Google.Dagger" Version="2.41.0.2" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.8.0.1" />
+    <PackageReference Include="Xamarin.Google.Dagger" Version="2.48.1.2" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.2.20" />
   </ItemGroup>
 </Project>

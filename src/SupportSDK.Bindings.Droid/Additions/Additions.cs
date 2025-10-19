@@ -10,7 +10,7 @@ namespace Zendesk.Support
 
     public partial class SupportEngine
     {
-        public override global::Zendesk.Messaging.IEngine.TransferOptionDescription GetTransferOptionDescription ()
+        public override global::Zendesk.Classic.Messaging.IEngine.TransferOptionDescription GetTransferOptionDescription ()
         {
             return GetTransferOptionDescProperty;
         }
